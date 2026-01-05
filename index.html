@@ -4,44 +4,50 @@
   <meta charset="UTF-8">
   <title>Викинги My Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Подключаем шрифт викингов с Google Fonts (Cinzel + декоративный) -->
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
   <style>
-    /* Общий фон в стиле викингов */
+    /* Общий фон с драккаром, воронами и огнями */
     body {
       margin: 0;
-      font-family: 'Cinzel', serif; /* шрифт с древним стилем */
-      background: url('https://images.unsplash.com/photo-1600369673374-1b0e4a3a9275?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      font-family: 'UnifrakturCook', serif; /* древний стиль */
+      background: url('https://images.unsplash.com/photo-1602791645677-84c2f2c283e0?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
       background-size: cover;
-      color: #f5f5dc; /* светлый текст */
+      color: #f5f5dc;
       text-align: center;
       overflow-x: hidden;
     }
 
-    /* Карточка с полупрозрачным фоном */
+    /* Карточка с полупрозрачным тёмным фоном */
     .card {
-      max-width: 700px;
+      max-width: 750px;
       margin: 80px auto;
-      background: rgba(0, 0, 0, 0.65);
+      background: rgba(0, 0, 0, 0.7);
       padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 0 20px #a0522d, 0 0 40px #deb887;
+      border-radius: 25px;
+      box-shadow: 0 0 25px #a0522d, 0 0 50px #deb887;
       border: 2px solid #deb887;
       text-align: left;
     }
 
+    /* Заголовки */
     h1 {
-      font-size: 2.5em;
-      margin-top: 0;
+      font-size: 3em;
       text-align: center;
-      text-shadow: 0 0 5px #a0522d, 0 0 10px #deb887;
+      text-shadow: 0 0 5px #a0522d, 0 0 15px #deb887;
+      margin-top: 0;
     }
 
     h2 {
-      font-size: 1.8em;
+      font-size: 2em;
       color: #a0522d;
       text-shadow: 0 0 3px #deb887;
       margin-top: 30px;
     }
 
+    /* Текст */
     p {
       font-size: 1.2em;
       line-height: 1.6;
@@ -55,7 +61,7 @@
       outline: none;
     }
 
-    /* Ссылки для древнего стиля */
+    /* Ссылки */
     a {
       color: #deb887;
       text-decoration: none;
@@ -70,10 +76,8 @@
 <body>
 
   <div class="card">
-    <h1>⚔ Добро пожаловать в мир Викингов ⚔</h1>
-
-    <h2>Готовы ли вы погрузиться в мир богов и средневековья?</h2>
-    <p>Этот сайт создан, чтобы познакомить вас с атмосферой древних легенд, мифов и эпических историй викингов.</p>
+    <h1>⚔ Готовы ли вы погрузиться в мир богов и средневековья? ⚔</h1>
+    <p>Этот сайт создан, чтобы познакомить вас с атмосферой древних легенд, мифов и эпических историй викингов. Представьте драккары, летящих воронов и огни древних деревень…</p>
 
     <h2>Музыка</h2>
     <p>Слушайте атмосферную музыку прямо здесь:</p>
