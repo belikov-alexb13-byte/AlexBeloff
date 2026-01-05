@@ -2,10 +2,10 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Cyberpunk Game Site</title>
+  <title>Cyberpunk My Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Общий фон — киберпанк стиль */
+    /* Общий фон Cyberpunk */
     body {
       margin: 0;
       font-family: 'Courier New', Courier, monospace;
@@ -18,56 +18,69 @@
 
     /* Полупрозрачная неоновая карточка */
     .card {
-      max-width: 500px;
-      margin: 100px auto;
+      max-width: 700px;
+      margin: 80px auto;
       background: rgba(0, 0, 0, 0.75);
       padding: 40px;
       border-radius: 20px;
       box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
       border: 2px solid #ff00ff;
+      text-align: left;
     }
 
     h1 {
-      margin-top: 0;
       font-size: 2.5em;
+      margin-top: 0;
+      text-align: center;
       text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
     }
 
+    h2 {
+      font-size: 1.8em;
+      color: #ff00ff;
+      text-shadow: 0 0 5px #ff00ff;
+      margin-top: 30px;
+    }
+
     p {
-      font-size: 1.2em;
-      color: #fff;
-      text-shadow: 0 0 5px #00ffff;
+      font-size: 1.1em;
+      line-height: 1.6;
+      text-shadow: 0 0 3px #00ffff;
     }
 
-    /* Кнопки в стиле Cyberpunk */
-    .btn {
-      display: inline-block;
-      margin: 15px 10px 0 10px;
-      padding: 15px 25px;
-      background: linear-gradient(45deg, #ff00ff, #00ffff);
-      color: #000;
-      font-weight: bold;
-      border-radius: 10px;
+    /* Музыкальный плеер */
+    audio {
+      margin-top: 20px;
+      width: 100%;
+      outline: none;
+    }
+
+    /* Ссылки для футуристического эффекта */
+    a {
+      color: #00ffff;
       text-decoration: none;
-      transition: 0.3s;
-      box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
     }
 
-    .btn:hover {
-      transform: scale(1.1);
-      box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+    a:hover {
+      color: #ff00ff;
+      text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
     }
   </style>
 </head>
 <body>
 
   <div class="card">
-    <h1>⚡ Добро пожаловать в Cyberpunk мир! ⚡</h1>
-    <p>Здесь ты можешь играть, создавать и исследовать цифровой город будущего!</p>
+    <h1>⚡ Добро пожаловать в мой Cyberpunk мир ⚡</h1>
 
-    <a class="btn" href="#">Играть</a>
-    <a class="btn" href="#">Мой мир</a>
-    <a class="btn" href="#">Моды</a>
+    <h2>Информация обо мне</h2>
+    <p>Привет! Меня зовут Александр. Я люблю технологии, игры и музыку. Этот сайт я сделал сам, чтобы делиться своими интересами и идеями. Добро пожаловать!</p>
+
+    <h2>Музыка</h2>
+    <p>Слушайте мою любимую музыку прямо здесь:</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио.
+    </audio>
   </div>
 
 </body>
